@@ -13,8 +13,9 @@ struct ContentView: View {
                                         .resizable()
                                         .scaledToFit()
                                         .frame(width: 120, height: 120)
-                                        .clipShape(Circle())
+                                        .clipShape(RoundedRectangle(cornerRadius: 20))
                                         .shadow(radius: 5)
+
                                     Text(flower.name)
                                         .font(.headline)
                                         .padding(.top, 5)
