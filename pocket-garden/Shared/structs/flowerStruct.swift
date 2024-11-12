@@ -1,11 +1,14 @@
 import SwiftUI
+import Foundation
 
-struct flowerStruct: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
 
-#Preview {
-    flowerStruct()
+struct Flower:Identifiable{
+    let id = UUID()
+    let name:String
+    let description:String
+    let conditions:String
+    let temperature:String
+    let blossomTime:String
+    let radius:Int
+    let image:Image
 }
