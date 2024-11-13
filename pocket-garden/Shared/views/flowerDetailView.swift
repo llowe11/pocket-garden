@@ -55,7 +55,7 @@ struct flowerDetailView: View {
                         .padding(.bottom, 10)
                 }
 
-                Text("Необходимая площадь:")
+                Text("Занимаемая площадь:")
                     .font(.headline)
                 Text("\(flower.radius) м²")
                                 
@@ -105,7 +105,7 @@ struct flowerDetailView: View {
                 }
 
                 if let numberOfPlants = numberOfPlants {
-                    Text("Вы можете разместить \(numberOfPlants) растений(е).")
+                    Text("Вы можете разместить \(numberOfPlants) растений этого вида в комнате.")
                         .font(.title2)
                         .fontWeight(.bold)
                         .padding(.top, 20)
