@@ -15,16 +15,7 @@ struct InfoModalView: View {
                 Text("фитонцидных растений для биофильного")
                 Text("дизайна интерьера")
                     .padding(.bottom, 5)
-                Divider()
-                Text("Индивидуальная работа")
-                    .padding(.bottom, 5)
-                Text("7-й класс, русский язык")
-                    .padding(.bottom, 5)
-                Text("Назарбаев Интеллектуальная школа")
-                Text("физико-математического направления")
-                Text("г. Тараз")
-                    .padding(.bottom, 15)
-
+               
                 Divider()
 
                 Text("Контакты:")
@@ -52,12 +43,7 @@ struct InfoModalView: View {
 
                 Divider()
 
-                Text("Адрес:")
-                    .font(.headline)
-                    .padding(.bottom, 5)
-                Text("Жамбылская область, Меркенский район,")
-                Text("Село Мерке, улица Т.Рыскулова, 125")
-                    .padding(.bottom, 15)
+                
 
                 Spacer()
             }
